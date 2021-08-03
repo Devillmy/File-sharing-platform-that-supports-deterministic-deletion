@@ -1,0 +1,7 @@
+﻿  Creating untrusted proxy/bridge routines
+  GenerateKey.cpp
+  SGXGenerateKey_u.c
+  正在生成代码
+  All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  GenerateKey.vcxproj -> C:\Users\jjr\Desktop\GenerateKey\GenerateKey\GenerateKey\x64\Release\GenerateKey.exe
