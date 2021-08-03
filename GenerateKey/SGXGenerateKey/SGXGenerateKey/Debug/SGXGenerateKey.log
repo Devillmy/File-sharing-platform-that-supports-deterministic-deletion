@@ -1,0 +1,17 @@
+﻿  SGXGenerateKey.cpp
+    正在创建库 E:\2021.7\2021信安竞赛\ISC\GenerateKey\GenerateKey\Debug\SGXGenerateKey.lib 和对象 E:\2021.7\2021信安竞赛\ISC\GenerateKey\GenerateKey\Debug\SGXGenerateKey.exp
+  SGXGenerateKey.vcxproj -> E:\2021.7\2021信安竞赛\ISC\GenerateKey\GenerateKey\Debug\SGXGenerateKey.dll
+  sign the enclave
+  <EnclaveConfiguration>
+      <ProdID>0</ProdID>
+      <ISVSVN>0</ISVSVN>
+      <StackMaxSize>0x40000</StackMaxSize>
+      <HeapMaxSize>0x100000</HeapMaxSize>
+      <TCSNum>1</TCSNum>
+      <TCSPolicy>1</TCSPolicy>
+      <DisableDebug>0</DisableDebug>
+      <MiscSelect>0</MiscSelect>
+      <MiscMask>0xFFFFFFFF</MiscMask>
+  </EnclaveConfiguration>
+  The required memory is 0x160000.
+  Succeed.
