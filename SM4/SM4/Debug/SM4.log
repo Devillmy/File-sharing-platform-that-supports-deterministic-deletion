@@ -1,0 +1,49 @@
+﻿  Creating untrusted proxy/bridge routines
+  ByteToInt.cpp
+  Fill.cpp
+  IntToByte.cpp
+  KeyGenerate.cpp
+  Plus.cpp
+  SBOX.cpp
+  SMS4_De_CBC.cpp
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_de_cbc.cpp(6): warning C4101: “in_temp”: 未引用的局部变量
+  SMS4_De_CFB.cpp
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_de_cfb.cpp(6): warning C4101: “in_temp”: 未引用的局部变量
+  SMS4_De_CTR.cpp
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_de_ctr.cpp(7): warning C4101: “in_temp”: 未引用的局部变量
+  SMS4_De_OFB.cpp
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_de_ofb.cpp(6): warning C4101: “in_temp”: 未引用的局部变量
+  SMS4_Decrypt.cpp
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_decrypt.cpp(5): warning C4101: “i”: 未引用的局部变量
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_decrypt.cpp(5): warning C4101: “in_temp”: 未引用的局部变量
+  SMS4_DecyptBlock.cpp
+  SMS4_En_CBC.cpp
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_en_cbc.cpp(6): warning C4101: “in_temp”: 未引用的局部变量
+  SMS4_En_CFB.cpp
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_en_cfb.cpp(6): warning C4101: “in_temp”: 未引用的局部变量
+  SMS4_En_CTR.cpp
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_en_ctr.cpp(6): warning C4101: “in_temp”: 未引用的局部变量
+  SMS4_En_OFB.cpp
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_en_ofb.cpp(6): warning C4101: “in_temp”: 未引用的局部变量
+  SMS4_Encrypt.cpp
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_encrypt.cpp(5): warning C4101: “i”: 未引用的局部变量
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sms4_encrypt.cpp(5): warning C4101: “in_temp”: 未引用的局部变量
+  SMS4_EncryptBlock.cpp
+  main.cpp
+e:\windows kits\10\include\10.0.17763.0\um\wingdi.h(118): warning C4005: “ERROR”: 宏重定义
+  e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\sm4_head.h(8): note: 参见“ERROR”的前一个定义
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\main.cpp(71): warning C4102: “loop1”: 未引用的标签
+e:\2021.7\2021信安竞赛\isc\sm4\sm4\sm4\main.cpp(153): warning C4102: “loop2”: 未引用的标签
+  正在生成代码...
+  SGXSM4_u.c
+SMS4_Decrypt.obj : error LNK2019: 无法解析的外部符号 "void __cdecl SMS4_DecryptBlock(unsigned __int64,unsigned char *,unsigned long *,unsigned char *)" (?SMS4_DecryptBlock@@YAX_KPAEPAK1@Z)，该符号在函数 "int __cdecl SMS4_Decrypt(unsigned __int64,char *,unsigned char *,char *,long *)" (?SMS4_Decrypt@@YAH_KPADPAE1PAJ@Z) 中被引用
+SMS4_De_CBC.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SMS4_DecryptBlock(unsigned __int64,unsigned char *,unsigned long *,unsigned char *)" (?SMS4_DecryptBlock@@YAX_KPAEPAK1@Z)
+SMS4_En_CBC.obj : error LNK2019: 无法解析的外部符号 "void __cdecl SMS4_EncryptBlock(unsigned __int64,unsigned char *,unsigned long *,unsigned char *)" (?SMS4_EncryptBlock@@YAX_KPAEPAK1@Z)，该符号在函数 "int __cdecl SMS4_En_CBC(unsigned __int64,char *,unsigned char *,char *,unsigned char *,long *)" (?SMS4_En_CBC@@YAH_KPADPAE12PAJ@Z) 中被引用
+SMS4_En_CFB.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SMS4_EncryptBlock(unsigned __int64,unsigned char *,unsigned long *,unsigned char *)" (?SMS4_EncryptBlock@@YAX_KPAEPAK1@Z)
+SMS4_En_CTR.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SMS4_EncryptBlock(unsigned __int64,unsigned char *,unsigned long *,unsigned char *)" (?SMS4_EncryptBlock@@YAX_KPAEPAK1@Z)
+SMS4_En_OFB.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SMS4_EncryptBlock(unsigned __int64,unsigned char *,unsigned long *,unsigned char *)" (?SMS4_EncryptBlock@@YAX_KPAEPAK1@Z)
+SMS4_De_CFB.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SMS4_EncryptBlock(unsigned __int64,unsigned char *,unsigned long *,unsigned char *)" (?SMS4_EncryptBlock@@YAX_KPAEPAK1@Z)
+SMS4_De_CTR.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SMS4_EncryptBlock(unsigned __int64,unsigned char *,unsigned long *,unsigned char *)" (?SMS4_EncryptBlock@@YAX_KPAEPAK1@Z)
+SMS4_De_OFB.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SMS4_EncryptBlock(unsigned __int64,unsigned char *,unsigned long *,unsigned char *)" (?SMS4_EncryptBlock@@YAX_KPAEPAK1@Z)
+SMS4_Encrypt.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SMS4_EncryptBlock(unsigned __int64,unsigned char *,unsigned long *,unsigned char *)" (?SMS4_EncryptBlock@@YAX_KPAEPAK1@Z)
+E:\2021.7\2021信安竞赛\ISC\SM4\SM4\Debug\SM4.exe : fatal error LNK1120: 2 个无法解析的外部命令
