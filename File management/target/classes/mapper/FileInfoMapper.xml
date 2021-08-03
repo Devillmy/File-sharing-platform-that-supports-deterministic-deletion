@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.FileInfoDao">
+
+    <select id="findByNameAndId" resultType="com.example.vo.FileInfoVo">
+        select `file_info`.*, `type_info`.name as typeName from `file_info`
+		left join `type_info` on `file_info`.typeId = `type_info`.id
+        where 1 = 1
+        <if test="name != null and name != '' and name != 'all'">
+            and `file_info`.`name` like concat('%', #{name}, '%')
+        </if>
+        <if test="typeId != null and typeId != 0">
+            and `file_info`.`typeId` = #{typeId}
+        </if>
+        <if test="id != null and id != 0">
+            and `file_info`.`id` = #{id}
+        </if>
+        order by `file_info`.`id`
+    </select>
+
+</mapper>

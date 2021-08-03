@@ -1,0 +1,90 @@
+/*左侧导航菜单    home*/
+.sideMenu {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    /*background-color: #fff;*/
+}
+
+.sideMenu .head {
+    background-image: linear-gradient(to bottom, #26a3de,#057db5);
+    /*background-color: #fff;*/
+    color: #eee;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.sideMenu h3 {
+    background-image: linear-gradient(to bottom, #eee,#ccc);
+    /*background: #eee;*/
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    border-top: 1px solid #e3e3e3;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.sideMenu ul .nLi i {
+    /*font-size: 16px;*/
+    margin-right: 10px;
+    /*position: relative;*/
+    /*top: 2px;*/
+}
+
+.sideMenu h3 {
+    position: relative;
+}
+
+.sideMenu ul .nLi .arrow {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.sideMenu ul .nLi.on .sub {
+    display: block;
+}
+
+.sideMenu ul .nLi .sub {
+    /*padding: 8px 0;*/
+    display: none;
+}
+
+.sideMenu ul .nLi .sub li {
+    height: 35px;
+    line-height: 35px;
+    list-style: none;
+}
+
+.sideMenu ul .nLi .sub li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    padding: 0 40px;
+    font-weight: normal;
+}
+.sideMenu ul .nLi .sub li a.active {
+    /*background: #574b90;*/
+    background-image: linear-gradient(to bottom, #26a3de,#057db5);
+    color: #fff;
+}
+.sideMenu ul .nLi .sub li a.active:hover {
+    background-image: linear-gradient(to bottom, #26a3de,#057db5);
+    color: #fff;
+}
+.sideMenu ul .nLi .sub li a:hover {
+    /*background:  #574b90;*/
+    /*background-image: linear-gradient(to bottom, #26a3de,#057db5);*/
+    color: #057db5;
+}
+
+/*左侧导航菜单    end*/
