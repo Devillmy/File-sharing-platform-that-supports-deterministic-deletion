@@ -1,0 +1,22 @@
+2021-07-28 10:03:16.657  INFO 1236 --- [main] com.example.Application                  : Starting Application on DESKTOP-3HT9PRR with PID 1236 (C:\Users\Moxie\Desktop\wenjianguanli\target\classes started by Moxie in C:\Users\Moxie\Desktop\wenjianguanli)
+2021-07-28 10:03:16.686  INFO 1236 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2021-07-28 10:03:17.504  WARN 1236 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2021-07-28 10:03:18.044  INFO 1236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2021-07-28 10:03:18.056  INFO 1236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-28 10:03:18.056  INFO 1236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-07-28 10:03:18.061  INFO 1236 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\Moxie\.jdks\corretto-1.8.0_302\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\mysql\mysql-5.7.24-winx64\bin;C:\Program Files\nodejs\;C:\Users\Moxie\anaconda3;C:\Users\Moxie\anaconda3\Library\mingw-w64\bin;C:\Users\Moxie\anaconda3\Library\usr\bin;C:\Users\Moxie\anaconda3\Library\bin;C:\Users\Moxie\anaconda3\Scripts;C:\Users\Moxie\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Moxie\AppData\Local\Programs\Python\Python37\;C:\Users\Moxie\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.3\bin;D:\Fiddler;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.2\bin;;C:\Program Files\JetBrains\PyCharm 2020.3.3\bin;;C:\Users\Moxie\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\Bandizip\;C:\modeltech_10.1a\win32;C:\Modulesim\win32;C:\MODULESIM\modeltech_10.1a\win32;C:\MODULESIM\win64;C:\ModuleSim\modeltech_10.1a\win32;C:\Users\Moxie\AppData\Roaming\npm;.]
+2021-07-28 10:03:18.129  INFO 1236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-28 10:03:18.129  INFO 1236 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1360 ms
+2021-07-28 10:03:18.147  INFO 1236 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-07-28 10:03:18.150  INFO 1236 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-07-28 10:03:18.150  INFO 1236 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-07-28 10:03:18.151  INFO 1236 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-07-28 10:03:18.151  INFO 1236 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-07-28 10:03:18.721  INFO 1236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28 10:03:18.928  INFO 1236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2021-07-28 10:03:18.930  INFO 1236 --- [main] com.example.Application                  : Started Application in 2.892 seconds (JVM running for 3.829)
+2021-07-28 10:03:41.704  INFO 1236 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-28 10:03:41.704  INFO 1236 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-28 10:03:41.711  INFO 1236 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-07-28 10:04:27.988  INFO 1236 --- [http-nio-8888-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-28 10:04:28.078  INFO 1236 --- [http-nio-8888-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
